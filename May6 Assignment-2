@@ -1,0 +1,16 @@
+empdata={1:['klaus','manager',20/5/2019,20000],
+        2:['elijah','hr',28/7/2014,40000],
+        3:['clarie','designer',4/5/2016,35000],
+        4:['enzo','clerk',24/4/2017,20000]}
+x=int(input('employee number'))
+print('employee name',empdata[x][0])
+print('employee designation',empdata[x][1])
+print('employee hiredate',empdata[x][2])
+print('employee salary',empdata[x][3])
+
+output:
+employee number2
+employee name elijah
+employee designation hr
+employee hiredate 0.0019860973187686196
+employee salary 40000
