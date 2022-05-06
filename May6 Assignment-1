@@ -1,0 +1,16 @@
+student={1:['joe','male','Data Science','9.0'],
+        2:['amie','female','Data Science','9.2'],
+        3:['tokyo','female','BBA','8.0'],
+        4:['denver','male','b.com','8.5']}
+a=int(input('student number'))
+print('sname',student[a][0])
+print('gender',student[a][1])
+print('group',student[a][2])
+print('result',student[a][3])
+
+output:
+student number1
+sname joe
+gender male
+group Data Science
+result 9.0
